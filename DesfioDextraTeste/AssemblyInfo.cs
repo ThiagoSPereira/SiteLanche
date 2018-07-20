@@ -37,7 +37,7 @@ namespace DesafioDextraRegrasDeNegocios.Tests
         }
 
         [TestMethod()]
-        public void CalcularPrecoDoLancheCompromocaoTest()
+        public void CalcularPrecoDoLancheCompromocaoCarneEQueijoTest()
         {
             List<int> ids = new List<int>();
             ids.Add(3);
