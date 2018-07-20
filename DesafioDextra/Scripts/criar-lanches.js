@@ -5,6 +5,7 @@
 });
 
 var ingredientes = [];
+var precoFinal = 0;
 var adicionar = function (ingrediente) {
     ingredientes.push(parseInt(ingrediente.getAttribute("data-ingredienteId")));
 
@@ -25,12 +26,24 @@ var adicionar = function (ingrediente) {
 var remover = function (ingrediente) {
     var indice = parseInt(ingrediente.getAttribute("data-indice"));
 
-    ingredientes.splice(indice, 1);
+    var ingredienteId = parseInt(ingrediente.getAttribute("data-id"));
+
+    var posicao = ingredientes.indexOf(ingredienteId);
+
+    ingredientes.splice(posicao, 1);
+
 
     calcularPreco(ingredientes);
 
     var htmlRemover = $("#ingrediente" + indice);
     htmlRemover.remove();
+}
+
+var comprar = function () {
+    if (precoFinal)
+        alert("Obrigado por comprar com a gente! \n Preço total: " + precoFinal);
+    else
+        alert("Escolhe a seu pedido!")
 }
 
 var calcularPreco = function (ingredientes) {
@@ -43,6 +56,7 @@ var calcularPreco = function (ingredientes) {
             var preco = $("#preco");
             preco.children().remove();
             preco.append("<span>" + response.preco + "</span>");
+            precoFinal = response.preco;
         },
         error: function (error) {
             console.log(error);
