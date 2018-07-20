@@ -1,0 +1,6 @@
+C:\Users\Thiago_2\Documents\Visual Studio 2017\Projects\DesafioDextra\DesafioDextraData\bin\Debug\DesafioDextraData.dll
+C:\Users\Thiago_2\Documents\Visual Studio 2017\Projects\DesafioDextra\DesafioDextraData\bin\Debug\DesafioDextraData.pdb
+C:\Users\Thiago_2\Documents\Visual Studio 2017\Projects\DesafioDextra\DesafioDextraData\obj\Debug\DesafioDextraData.csprojResolveAssemblyReference.cache
+C:\Users\Thiago_2\Documents\Visual Studio 2017\Projects\DesafioDextra\DesafioDextraData\obj\Debug\DesafioDextraData.csproj.CoreCompileInputs.cache
+C:\Users\Thiago_2\Documents\Visual Studio 2017\Projects\DesafioDextra\DesafioDextraData\obj\Debug\DesafioDextraData.dll
+C:\Users\Thiago_2\Documents\Visual Studio 2017\Projects\DesafioDextra\DesafioDextraData\obj\Debug\DesafioDextraData.pdb

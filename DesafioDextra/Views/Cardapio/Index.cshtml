@@ -1,0 +1,35 @@
+﻿@model IEnumerable<DesafioDextraData.Model.Lanche>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Cardapio</h2>
+
+@foreach (var lanche in Model)
+{
+    <h4>@lanche.Nome</h4>
+    <p>
+        Ingredientes:
+        @foreach (var ingrediente in lanche.Ingredientes)
+        {
+            if (ingrediente.Equals(lanche.Ingredientes.Last()))
+            {
+                <span>@ingrediente.Nome </span>
+            }
+            else
+            {
+                <span>@ingrediente.Nome, </span>
+            }
+
+        }
+        <span class="preco"> Preço: </span> @lanche.Ingredientes.Sum(ingrediente => ingrediente.Valor)
+        <br /><button type="button" class="btn btn-default" data-nome="@lanche.Nome" data-preco="@lanche.Ingredientes.Sum(ingrediente => ingrediente.Valor)" onclick="escolher(this)">Escolher</button>
+    </p>
+}
+
+
+@section scripts {
+
+    <script type="text/javascript" src="~/Scripts/lanches-prontos.js"></script>
+}

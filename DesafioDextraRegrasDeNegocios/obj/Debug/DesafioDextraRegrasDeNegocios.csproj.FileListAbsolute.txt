@@ -1,0 +1,8 @@
+C:\Users\Thiago_2\Documents\Visual Studio 2017\Projects\DesafioDextra\DesafioDextraRegrasDeNegocios\bin\Debug\DesafioDextraRegrasDeNegocios.dll
+C:\Users\Thiago_2\Documents\Visual Studio 2017\Projects\DesafioDextra\DesafioDextraRegrasDeNegocios\bin\Debug\DesafioDextraRegrasDeNegocios.pdb
+C:\Users\Thiago_2\Documents\Visual Studio 2017\Projects\DesafioDextra\DesafioDextraRegrasDeNegocios\bin\Debug\DesafioDextraData.dll
+C:\Users\Thiago_2\Documents\Visual Studio 2017\Projects\DesafioDextra\DesafioDextraRegrasDeNegocios\bin\Debug\DesafioDextraData.pdb
+C:\Users\Thiago_2\Documents\Visual Studio 2017\Projects\DesafioDextra\DesafioDextraRegrasDeNegocios\obj\Debug\DesafioDextraRegrasDeNegocios.csprojResolveAssemblyReference.cache
+C:\Users\Thiago_2\Documents\Visual Studio 2017\Projects\DesafioDextra\DesafioDextraRegrasDeNegocios\obj\Debug\DesafioDextraRegrasDeNegocios.csproj.CoreCompileInputs.cache
+C:\Users\Thiago_2\Documents\Visual Studio 2017\Projects\DesafioDextra\DesafioDextraRegrasDeNegocios\obj\Debug\DesafioDextraRegrasDeNegocios.dll
+C:\Users\Thiago_2\Documents\Visual Studio 2017\Projects\DesafioDextra\DesafioDextraRegrasDeNegocios\obj\Debug\DesafioDextraRegrasDeNegocios.pdb
