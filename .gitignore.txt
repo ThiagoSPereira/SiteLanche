@@ -1,5 +1,5 @@
 TestResults/
-.vs
+.vs/
 DesafioDextra/bin/
 DesafioDextra/obj/
 DesafioDextraData/bin/
