@@ -1,2 +1,10 @@
 TestResults/.
 .vs/.
+DesafioDextra/bin/.
+DesafioDextra/obj/.
+DesafioDextraData/bin/.
+DesafioDextraData/obj/.
+DesafioDextraRegrasdeNegocios/bin/.
+DesafioDextraRegrasdeNegocios/obj/.
+DesafioDextraTeste/bin/.
+DesafioDextraTeste/obj/.
